@@ -3,8 +3,9 @@
 
 
 html{   
-    background: #3697C8;
+    background: #FCE6FF;
     font-family: "EB Garamond";
+    color: #3697C8;
 }
 
 body{
@@ -13,7 +14,6 @@ body{
 
 h1{
     text-align: center;
-    background: #FCE6FF;
 }
 
 article{
@@ -25,18 +25,26 @@ article{
     display: flex;
     flex-direction: row;
     align-items: center;
-    padding-left: 20px;
-    padding-right: auto;
-}
-
-.intropadding{
-    padding-left: 30px;
+    gap: 1em;
+    padding: 20px;
 }
 
 .circleimg{
     width: 200px;
     height: auto;
     border-radius: 50%;
+}
+
+.townimg{
+    width: 350px;
+}
+
+.town{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 1em;
+    padding: 0px 20px 20px 20px;
 }
 
 .right{
@@ -51,9 +59,15 @@ article{
     text-align: left;
 }
 
+.toptenalign{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
 .block {
     background: #FCE6FF;
-    border: 3px solid black;
+    border: 3px solid #3697C8;
     margin-top: 20px;
     margin-bottom: 20px;
     padding-left: 20px;
@@ -67,6 +81,7 @@ article{
 article ul{
     margin: 0;
     padding: 0;
+    width: 350px;
 }
 
 article ul li{
