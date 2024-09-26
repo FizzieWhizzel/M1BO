@@ -47,6 +47,23 @@ article{
     padding: 0px 20px 20px 20px;
 }
 
+.hobbyimg{
+    width: 250px;
+    height: auto;
+}
+
+.hobby{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    gap: 1em;
+    padding: 0px 20px 20px 20px;
+}
+
+.hobbytext{
+    width: 300px;
+}
+
 .right{
     text-align: right;
 }
