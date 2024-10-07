@@ -3,7 +3,7 @@
 
 
 html{   
-    background: #FCE6FF;
+    background: #907AD6;
     font-family: "EB Garamond";
     color: #3697C8;
 }
@@ -12,13 +12,61 @@ body{
     font-size: 20px;
 }
 
-h1{
-    text-align: center;
+header, footer{
+    background: #3697C8;
+    height: 80px;
+    border: 3px solid #FCE6FF;
+}
+
+.button1{
+    width: 200px;
+    height: 40px;
+    font-family: "EB Garamond";
+    font-size: 120%;
+    border: none;
+    border-radius: 5px;
+    background: #FCE6FF;
+    color: #D893EF;
+    position: absolute;
+    top: 30px;
+    right: 500px;
+}
+
+.button2{
+    width: 200px;
+    height: 40px;
+    font-family: "EB Garamond";
+    font-size: 120%;
+    border: none;
+    border-radius: 5px;
+    background: #FCE6FF;
+    color: #D893EF;
+    position: absolute;
+    top: 30px;
+    right: 270px;
+}
+
+.buttondark{
+    width: 200px;
+    height: 40px;
+    font-family: "EB Garamond";
+    font-size: 120%;
+    border: none;
+    border-radius: 5px;
+    background: #4C2860;
+    color: #D893EF;
+    position: absolute;
+    top: 30px;
+    right: 40px;
 }
 
 article{
     width: 60vw;
     margin: 0px auto;
+}
+
+h1{
+    text-align: center;
 }
 
 .intro {
@@ -97,7 +145,6 @@ article{
     border: 3px solid #3697C8;
     margin-top: 20px;
     margin-bottom: 20px;
-    padding-left: 20px;
 }
 
 .dots{
@@ -114,4 +161,11 @@ article ul{
 article ul li{
     margin: 0;
     padding: 0;
+}
+
+footer{
+    color:#D893EF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
